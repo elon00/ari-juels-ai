@@ -1,0 +1,51 @@
+{
+  "name": "ari-juels-ai-mcp",
+  "version": "1.0.0",
+  "description": "Ari Juels AI Model Context Protocol Server for Autonomous Smart Contract Security, Decentralized Oracle Networks, Proof of Retrievability & Honeywords Authentication Protocol",
+  "tools": [
+    {
+      "name": "audit_oracle_cryptographic_authenticity",
+      "description": "Evaluate threshold signatures and cryptographic commitments across decentralized oracle consensus rounds to prevent frontrunning and flash loan exploits",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data_feed_id": {
+            "type": "string"
+          },
+          "threshold_signatures": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "data_feed_id"
+        ]
+      }
+    },
+    {
+      "name": "disburse_decentralized_oracle_grant",
+      "description": "Trigger automated micro-escrow releases for secure oracle network nodes, honeywords decoy databases, and verifiable retrievability protocols",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
